@@ -1,0 +1,24 @@
+
+
+.idCard {
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    border: 1px solid black;
+    width: 700px;
+    padding: 6px;
+
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction:column;
+
+}
+
+.cardInfo > p {
+    display: flex;
+    justify-content: flex-start;
+    margin: 3px;
+}
